@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: Montserrat;
+  color: #003249;
+  background-color: #DFDFDF;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.ana{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 35px;
+    border-radius: 50%;
+}
+
+.nav {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  size: 30px;
+}
+
+.nav a{
+  display: inline-block;
+  align-items: center;
+  padding: 0 4em;
+  color: white;
+  text-decoration: none;
+  max-width: 900px;
+  margin: 0 8px;
+}
+
+.nav a:hover{
+  background-color: rgba(255, 30, 90, .3);
+}
+
+.nav{
+  max-width: 900px;
+  align-content: center;
+  margin: auto;
+}
+
+.titulo{
+  font-weight: normal;
+  color: #FFDE59;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  font-size: 2em;
+}
+
+.subtitulo{
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+.second-text{
+  font-weight: normal;
+  color: #FFDE59;
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.third-text{
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 1.2em;
+  font-style: bold;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
